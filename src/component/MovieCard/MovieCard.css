@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.movie_card {
+  position: relative;
+  display: block;
+  width: 800px;
+  height: 350px;
+  margin: 100px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+:hover .movie_card {
+  transform: scale(1.15);
+  transition: all 0.4s;
+}
+
+.info_section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-blend-mode: multiply;
+  z-index: 2;
+  border-radius: 10px;
+}
+.movie_header {
+  position: relative;
+  padding: 25px;
+  height: 40%;
+}
+h1 {
+  color: #fff;
+  font-weight: 400;
+}
+h5 {
+  color: #fff;
+}
+.type {
+  display: inline-block;
+  color: #cee4fd;
+  margin-left: 10px;
+}
+.locandina {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  height: 350px;
+  width: 200px;
+  box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.5);
+}
+
+.movie_desc {
+  padding: 25px;
+  height: 50%;
+}
+.text {
+  color: #cfd6e1;
+}
+.rating {
+  margin-left: 28%;
+}
+.movie_desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rating{
+  margin-top: 2%;
+  margin-left: 2%;
+}
